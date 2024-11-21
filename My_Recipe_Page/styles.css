@@ -1,5 +1,14 @@
-body {
-  background-color: hsl(30, 54%, 90%);
+/* Styles for mobile devices (375px width) */
+@media screen and (max-width: 375px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
+}
+/* Styles for desktop screens (1440px width) */
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+  }
 }
 #WhiteBG {
   background-color: hsl(0, 0%, 100%);
@@ -80,4 +89,7 @@ ul ::marker {
 }
 #PinkMarker ::marker {
   color: hsl(332, 51%, 32%);
+}
+.attribution {
+  font-size: large;
 }
