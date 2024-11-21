@@ -73,4 +73,11 @@ td b {
 }
 ol ::marker {
   color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+ul ::marker {
+  color: hsl(14, 45%, 36%);
+}
+#PinkMarker ::marker {
+  color: hsl(332, 51%, 32%);
 }
