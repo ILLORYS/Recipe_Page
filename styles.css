@@ -12,6 +12,9 @@
   margin-inline: auto;
   padding: 2%;
 }
+body {
+    background-color: hsl(30, 54%, 90%);
+  }
 #Preptime {
   color: hsl(30, 10%, 34%);
   background-color: hsl(330, 100%, 98%);
@@ -90,14 +93,6 @@ ul ::marker {
   color: hsl(332, 51%, 32%);
 }
 /* Styles for mobile devices (375px width) */
-@media screen and (min-width: 375px) {
-  body {
-    background-color: hsl(30, 54%, 90%);
-  }
-}
+@media screen and (min-width: 375px) {}
 /* Styles for desktop screens (1440px width) */
-@media screen and (min-width: 1440px) {
-  body {
-    background-color: hsl(30, 54%, 90%);
-  }
-}
+@media screen and (min-width: 1440px) {}
