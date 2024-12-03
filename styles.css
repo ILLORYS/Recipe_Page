@@ -92,7 +92,11 @@ ul ::marker {
 #PinkMarker ::marker {
   color: hsl(332, 51%, 32%);
 }
-/* Styles for mobile devices (375px width) */
+/* Styles for everything - experimental - */
 @media screen and (min-width: 375px) {}
-/* Styles for desktop screens (1440px width) */
+@media screen and (min-width: 640px) {}
+@media screen and (min-width: 768px) {}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1280px) {}
 @media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1536px) {}
